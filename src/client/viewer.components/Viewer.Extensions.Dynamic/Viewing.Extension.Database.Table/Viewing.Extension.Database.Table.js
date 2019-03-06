@@ -456,9 +456,9 @@ class DatabaseTableExtension extends MultiModelExtensionBase {
       dataType: 'text',
       displayCategory: 'Database'
     },{
-      id: material._id + '-supplier',
-      displayName: 'Supplier',
-      displayValue: material.supplier,
+      id: material._id + '-Contractor',
+      displayName: 'Contractor',
+      displayValue: material.Contractor,
       dataType: 'text',
       displayCategory: 'Database'
     },{
@@ -565,7 +565,7 @@ class DatabaseTableExtension extends MultiModelExtensionBase {
   //
   //        this.dbAPI.postItem(this.options.database, {
   //          name: key,
-  //          supplier: 'Autodesk',
+  //          Contractor: 'Autodesk',
   //          currency: 'USD',
   //          price: 1.0
   //        })
