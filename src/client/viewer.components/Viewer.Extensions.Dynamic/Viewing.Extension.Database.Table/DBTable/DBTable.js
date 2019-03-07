@@ -145,6 +145,7 @@ class DBTable extends React.Component {
           return {
             name: dbItem.name,
             supplier: dbItem.supplier,
+            Contractor: dbItem.Contractor,
             price: dbItem.price,
             currency: dbItem.currency,
             id: dbItem._id
@@ -333,6 +334,11 @@ class DBTable extends React.Component {
               <th className="db-column fooEditable"
                 data-hide="phone,tablet"
                 data-field="supplier">
+                Supplier
+              </th>
+      <th className="db-column fooEditable"
+                data-hide="phone,tablet"
+                data-field="Contractor">
                 Supplier
               </th>
               <th className="db-column fooEditable"
