@@ -339,7 +339,7 @@ class DBTable extends React.Component {
       <th className="db-column fooEditable"
                 data-hide="phone,tablet"
                 data-field="Contractor">
-                Supplier
+                Contractor
               </th>
               <th className="db-column fooEditable"
                 data-field="price">
